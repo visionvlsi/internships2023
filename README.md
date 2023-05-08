@@ -83,3 +83,8 @@ STEP-15
 3. Register at AMD Xilinx FPGA 
 
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools.html
+
+4. For downloading at AMD Xilinx, one needs to complete 
+
+![2023-05-08 (1)](https://user-images.githubusercontent.com/98731221/236813037-9e075efc-97f9-4743-aaa1-740d4ac45860.png)
+
