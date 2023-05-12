@@ -2,7 +2,7 @@
 
 #### FPGA Design approach EDA tools are: Though there are several there are majorly two 
 
-###### 1. AMD's Xilinx 
+###### 1. AMD-Xilinx's 
             1. ISE
             2. Vivado
             
@@ -15,3 +15,5 @@ For Downlaoding one need to register first at https://www.xilinx.com/support/dow
 For downloading visit this page registration in few cases required so better register then download at
 
 https://www.intel.in/content/www/in/en/products/details/fpga/development-tools/quartus-prime.html
+
+
