@@ -30,16 +30,16 @@ endmodule
  
 ```
 Output
-# 3 * 0 = 0
-# 3 * 1 = 3
-# 3 * 2 = 6
-# 3 * 3 = 9
-# 3 * 4 = 12
+\# 3 * 0 = 0
+\# 3 * 1 = 3
+\# 3 * 2 = 6
+\# 3 * 3 = 9
+\# 3 * 4 = 12
 
 #### While Loop
 While loops are used when the number of iterations is indeterminate, and exit from the loop is based on condition. Also, in this case, the iterator is not available directly, and any variable can be used to write the condition. while loop is different from for loop as in while loop, we need to give the exit condition inside the loop construct, and thus gives us the flexibility in defining variable update rule.
 
-Syntax: while(<condition>) begin end
+Syntax: while\(\<condition\>\) begin end
 ```
 module while_loop;
     // declare a normal variable
@@ -54,11 +54,11 @@ module while_loop;
 endmodule
 ```
 Output
-# 3 * 0 = 0
-# 3 * 1 = 3
-# 3 * 2 = 6
-# 3 * 3 = 9
-# 3 * 4 = 12
+\# 3 * 0 = 0
+\# 3 * 1 = 3
+\# 3 * 2 = 6
+\# 3 * 3 = 9
+\# 3 * 4 = 12
                     
  #### Forever Loop
 A forever loop is an infinite loop, i.e., the loop continues to run infinitely. Forever loop is mainly used when we want some code block to run infinitely, basically in a test bench. It should be used with caution as this can lead to ever ending simulations, as by default, a forever loop blocks the execution of the code until the loop is ended. Forever loop should be used inside the fork-join construct to run it concurrently. It can also be ended using break or return.
@@ -84,18 +84,18 @@ module forever_loop_1;
 endmodule
   ```
 Output
-# [0] Iterating
-# [1] Iterating
-# [2] Iterating
-# [3] Iterating
-# [4] Iterating
-# [5] Iterating
-# [6] Iterating
-# [7] Iterating
-# [8] Iterating
-# [9] Iterating
-# ** Note: $finish    : loops.v(35)
-#    Time: 10 ns  Iteration: 0  Instance: /forever_loop_1
+\# \[0\] Iterating
+\# \[1\] Iterating
+\# \[2\] Iterating
+\# \[3\] Iterating
+\# \[4\] Iterating
+\# \[5\] Iterating
+\# \[6\] Iterating
+\# \[7\] Iterating
+\# \[8\] Iterating
+\# \[9\] Iterating
+\# ** Note: $finish    : loops.v(35)
+\#    Time: 10 ns  Iteration: 0  Instance: /forever_loop_1
                     
 Example 2
 In this example, the forever loop is terminated using break. As break is not directly available in Verilog, thus disable keyword is used to achieve it. A detailed explanation can be found here. Removing the disable statement will make the simulation run indefinitely.
@@ -115,17 +115,17 @@ module forever_loop_2;
 endmodule
  ```
 Output
-# 3 * 0 = 0
-# 3 * 1 = 3
-# 3 * 2 = 6
-# 3 * 3 = 9
-# 3 * 4 = 12
-# 3 * 5 = 15
+\# 3 * 0 = 0
+\# 3 * 1 = 3
+\# 3 * 2 = 6
+\# 3 * 3 = 9
+\# 3 * 4 = 12
+\# 3 * 5 = 15
   
 #### Repeat loop
 A repeat loop does not have an iterator and inputs a number. This simple loop construct repeats the code inside it for the number of times mentioned in the loop construct. It can be seen as the finite variant of the forever loop.
 
-Syntax: repeat(<no_of_loops>) begin end
+Syntax: repeat\(\<no_of_loops\>\) begin end
 ```
 module repeat_loop;
     initial begin
@@ -137,9 +137,9 @@ module repeat_loop;
 endmodule
   ```
 Output
-# Inside loop
-# Inside loop
-# Inside loop
-# Inside loop
-# Inside loop
-# Loop Ended
+\# Inside loop
+\# Inside loop
+\# Inside loop
+\# Inside loop
+\# Inside loop
+\# Loop Ended
