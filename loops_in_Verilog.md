@@ -67,7 +67,7 @@ Always and forever loop may seem the same, as they both execute the code written
 
 Syntax: forever begin end
 
-Example 1
+Example 1<br/>
 In this example, the forever loop is used inside an initial block, and in another initial block, $finish is called at the 10th time step. As there are two initial blocks, they will run concurrently, and the simulation will stop at t=10. However, if the delay of one unit is removed from the forever loop, the simulation would never end. Because when the delay is removed from the forever loop, the simulation will never proceed, and the loop will run forever. $fnisih could not be called in this case. Try removing the delay and see the output.
 ```
 module forever_loop_1;
@@ -97,7 +97,7 @@ Output<br/>
 \# ** Note: $finish    : loops.v(35)<br/>
 \#    Time: 10 ns  Iteration: 0  Instance: /forever_loop_1
                     
-Example 2
+Example 2<br/>
 In this example, the forever loop is terminated using break. As break is not directly available in Verilog, thus disable keyword is used to achieve it. A detailed explanation can be found here. Removing the disable statement will make the simulation run indefinitely.
 ```
 module forever_loop_2;
@@ -115,12 +115,12 @@ module forever_loop_2;
 endmodule
  ```
 Output<br/>
-\# 3 * 0 = 0
-\# 3 * 1 = 3
-\# 3 * 2 = 6
-\# 3 * 3 = 9
-\# 3 * 4 = 12
-\# 3 * 5 = 15
+\# 3 * 0 = 0<br/>
+\# 3 * 1 = 3<br/>
+\# 3 * 2 = 6<br/>
+\# 3 * 3 = 9<br/>
+\# 3 * 4 = 12<br/>
+\# 3 * 5 = 15<br/>
   
 #### Repeat loop
 A repeat loop does not have an iterator and inputs a number. This simple loop construct repeats the code inside it for the number of times mentioned in the loop construct. It can be seen as the finite variant of the forever loop.
@@ -137,9 +137,9 @@ module repeat_loop;
 endmodule
   ```
 Output<br/>
-\# Inside loop
-\# Inside loop
-\# Inside loop
-\# Inside loop
-\# Inside loop
-\# Loop Ended
+\# Inside loop<br/>
+\# Inside loop<br/>
+\# Inside loop<br/>
+\# Inside loop<br/>
+\# Inside loop<br/>
+\# Loop Ended<br/>
