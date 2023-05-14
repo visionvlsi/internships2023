@@ -29,7 +29,7 @@ module for_loop;
 endmodule
  
 ```
-Output
+Output<br/>
 \# 3 * 0 = 0<br/>
 \# 3 * 1 = 3<br/>
 \# 3 * 2 = 6<br/>
@@ -53,7 +53,7 @@ module while_loop;
     end
 endmodule
 ```
-Output
+Output<br/>
 \# 3 * 0 = 0<br/>
 \# 3 * 1 = 3<br/>
 \# 3 * 2 = 6<br/>
@@ -83,7 +83,7 @@ module forever_loop_1;
     end
 endmodule
   ```
-Output
+Output<br/>
 \# \[0\] Iterating<br/>
 \# \[1\] Iterating<br/>
 \# \[2\] Iterating<br/>
@@ -114,7 +114,7 @@ module forever_loop_2;
     end
 endmodule
  ```
-Output
+Output<br/>
 \# 3 * 0 = 0
 \# 3 * 1 = 3
 \# 3 * 2 = 6
@@ -136,7 +136,7 @@ module repeat_loop;
     end
 endmodule
   ```
-Output
+Output<br/>
 \# Inside loop
 \# Inside loop
 \# Inside loop
