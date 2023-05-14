@@ -12,7 +12,7 @@ Let us see different loop constructs of Verilog in detail.
 #### For Loop
 For loop is used when we want to stop loop iteration depending on some condition. For loop may not execute even once if the exit condition is valid for the first iteration. In simpler terms, before executing each iteration, the loop checks the condition, and if the condition is false, the loop exits.
 
-Syntax: for(<initial value>;<condition>;<update_rule>) begin end
+Syntax: for\(\<initial value\>;\<condition\>;\<update_rule\>\) begin end
 
 In Verilog, we cannot declare the iterator inside a loop. Iterator is nothing but the variable used to implement the loop, variable i in this case. Also, as i++ is not valid in Verilog, we need to use i=i+1 to increase the variable's value by 1.
 
