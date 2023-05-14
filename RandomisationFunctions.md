@@ -26,3 +26,4 @@ module random_demo;
     end
 endmodule
 ```
+on EDAPlatground https://edaplayground.com/x/cSMa
