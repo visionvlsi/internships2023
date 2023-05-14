@@ -12,7 +12,7 @@ $urandom_range
 This function also generates a 32-bit random unsigned number but inside the range mentioned.
 
 Example
-
+```
 module random_demo;
     reg [31:0] a, b;
     integer c;
@@ -25,3 +25,4 @@ module random_demo;
         end
     end
 endmodule
+```
