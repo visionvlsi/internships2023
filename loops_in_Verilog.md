@@ -30,11 +30,11 @@ endmodule
  
 ```
 Output
-\# 3 * 0 = 0
-\# 3 * 1 = 3
-\# 3 * 2 = 6
-\# 3 * 3 = 9
-\# 3 * 4 = 12
+\# 3 * 0 = 0<br/>
+\# 3 * 1 = 3<br/>
+\# 3 * 2 = 6<br/>
+\# 3 * 3 = 9<br/>
+\# 3 * 4 = 12<br/>
 
 #### While Loop
 While loops are used when the number of iterations is indeterminate, and exit from the loop is based on condition. Also, in this case, the iterator is not available directly, and any variable can be used to write the condition. while loop is different from for loop as in while loop, we need to give the exit condition inside the loop construct, and thus gives us the flexibility in defining variable update rule.
@@ -54,11 +54,11 @@ module while_loop;
 endmodule
 ```
 Output
-\# 3 * 0 = 0
-\# 3 * 1 = 3
-\# 3 * 2 = 6
-\# 3 * 3 = 9
-\# 3 * 4 = 12
+\# 3 * 0 = 0<br/>
+\# 3 * 1 = 3<br/>
+\# 3 * 2 = 6<br/>
+\# 3 * 3 = 9<br/>
+\# 3 * 4 = 12<br/>
                     
  #### Forever Loop
 A forever loop is an infinite loop, i.e., the loop continues to run infinitely. Forever loop is mainly used when we want some code block to run infinitely, basically in a test bench. It should be used with caution as this can lead to ever ending simulations, as by default, a forever loop blocks the execution of the code until the loop is ended. Forever loop should be used inside the fork-join construct to run it concurrently. It can also be ended using break or return.
@@ -84,17 +84,17 @@ module forever_loop_1;
 endmodule
   ```
 Output
-\# \[0\] Iterating
-\# \[1\] Iterating
-\# \[2\] Iterating
-\# \[3\] Iterating
-\# \[4\] Iterating
-\# \[5\] Iterating
-\# \[6\] Iterating
-\# \[7\] Iterating
-\# \[8\] Iterating
-\# \[9\] Iterating
-\# ** Note: $finish    : loops.v(35)
+\# \[0\] Iterating<br/>
+\# \[1\] Iterating<br/>
+\# \[2\] Iterating<br/>
+\# \[3\] Iterating<br/>
+\# \[4\] Iterating<br/>
+\# \[5\] Iterating<br/>
+\# \[6\] Iterating<br/>
+\# \[7\] Iterating<br/>
+\# \[8\] Iterating<br/>
+\# \[9\] Iterating<br/>
+\# ** Note: $finish    : loops.v(35)<br/>
 \#    Time: 10 ns  Iteration: 0  Instance: /forever_loop_1
                     
 Example 2
